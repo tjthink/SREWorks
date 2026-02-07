@@ -52,7 +52,7 @@
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
-            <version>1.8.13</version>
+            <version>1.9.25.1</version>
         </dependency>
         <dependency>
             <groupId>org.apache.poi</groupId>
@@ -131,9 +131,7 @@
                         <phase>package</phase>
                         <configuration>
                             <tasks>
-                                <unzip
-                                        src="${project.build.directory}/${project.build.finalName}.${project.packaging}"
-                                        dest="${project.build.directory}/warehouse" />
+                                <unzip src="${project.build.directory}/${project.build.finalName}.${project.packaging}" dest="${project.build.directory}/warehouse"/>
                             </tasks>
                         </configuration>
                         <goals>
