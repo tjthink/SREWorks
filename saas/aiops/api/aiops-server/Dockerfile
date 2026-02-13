@@ -1,6 +1,6 @@
 #FROM reg.docker.alibaba-inc.com/aone-base/alios7u2-python37:dev
 
-FROM python:3.7-slim
+FROM python:3.14.3-slim
 
 # FROM python:3.9-alpine
 
