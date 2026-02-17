@@ -24,3 +24,4 @@ kazoo == 2.6.0
 inotify >= 0.2.10
 simplejson >= 3.3.0
 nacos-sdk-python==0.1.6
+cryptography>=46.0.5 # not directly required, pinned by Snyk to avoid a vulnerability
