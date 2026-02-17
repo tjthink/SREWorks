@@ -46,7 +46,7 @@
 
         <okhttp.version>3.14.9</okhttp.version>
         <google.guava.version>23.0</google.guava.version>
-        <kafka.client.version>2.8.0</kafka.client.version>
+        <kafka.client.version>4.2.0</kafka.client.version>
         <elasticsearch>7.13.0</elasticsearch>
         <elasticsearch-client>7.13.0</elasticsearch-client>
         <elasticsearch-hl-client>7.13.0</elasticsearch-hl-client>
